@@ -6,7 +6,11 @@ ip(){
   if [ -e $PREFIX/bin/curl ];then
     curl http://ip-api.com/$iphost
 
-
+  else
+    pkg update && pkg upgrade -y
+    sleep 2
+    pkg install curl
+    fi
 }
 baner="
   Ingresa la direccion ip 
