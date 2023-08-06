@@ -1,4 +1,4 @@
-#!usr/bin/env/ bash
+#!/data/data/com.termux/files/usr/bin/env sh
 verde="\033[1;32m"
 ip(){
   echo -n $verde "ip del dominio \n -- > : "
