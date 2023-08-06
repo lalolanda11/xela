@@ -2,10 +2,10 @@
 PROGRAM_NAME=xela
 PROGRAM_DIR=/data/data/com.termux/files/usr/bin
 instalar(){
-install -Dm755  xela.sh $(PROGRAM_DIR)/$(PROGRAM_NAME)
+install -Dm755  xela.sh $PROGRAM_DIR/$PROGRAM_NAME
 }
 desinstalar(){
-rm -rf $(PROGRAM_DIR)/$(PROGRAM_NAME)
+rm -rf $PROGRAM_DIR/$PROGRAM_NAME
 }
 
 echo -e "Instalar programa \n [si] \n [no] "
