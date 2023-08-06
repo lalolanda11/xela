@@ -8,7 +8,7 @@ desinstalar(){
 rm -rf $PROGRAM_DIR/$PROGRAM_NAME
 }
 
-echo -e "Instalar programa \n [si] \n [no] "
+echo -n "Instalar programa \n [si] \n [no] "
 read opcion
 case $opcion in 
   si)
