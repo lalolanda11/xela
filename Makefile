@@ -1,8 +1,9 @@
-Nombre_programa=xela
-Directorio="/data/data/com.termux/files/usr/bin"
+PROGRAM_NAME=xela
+PROGRAM_DIR=/data/data/com.termux/files/usr/bin
+
 install:
-  install -Dm755  xela.sh $Directorio/$Nombre_programa
+  install -Dm755  xela.sh $(PROGRAM_DIR)/$(PROGRAM_NAME)
 
 uninstall:
-  rm -rf $Directorio/$Nombre_programa
+  rm -rf $(PROGRAM_DIR)/$(PROGRAM_NAME)
 
